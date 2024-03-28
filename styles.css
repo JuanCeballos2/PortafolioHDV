@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para la lista de enlaces */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilos para los elementos de la lista */
+li {
+    display: inline;
+    margin-right: 20px; /* Espacio entre los elementos */
+}
+
+/* Estilos para los enlaces */
+li a {
+    text-decoration: none;
+    color: #333; /* Color del texto */
+    font-size: 25px; /* Tamaño del texto */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos para los recuadros de información */
+.info-box {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 48%; /* Ancho del recuadro */
+}
+
+/* Estilos para los títulos de sección */
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Estilos para el contenido de cada sección */
+.section-content {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilos para la imagen ajustada */
+.img-ajustada {
+    width: 200px; /* Cambiar el ancho de la imagen según tus necesidades */
+    height: auto; /* Mantener la proporción de la imagen */
+    display: block; /* Para centrar la imagen */
+    margin: 0 auto; /* Para centrar la imagen horizontalmente */
+}
+
+/* Estilos para la imagen dentro del contenido */
+.section-content img {
+    border-radius: 50%; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.3s ease; /* Transición suave */
+    width: 200px; /* Cambiar el ancho de la imagen según tus necesidades */
+    height: auto; /* Mantener la proporción de la imagen */
+    display: block; /* Para centrar la imagen */
+    margin: 0 auto; /* Para centrar la imagen horizontalmente */
+}
+
+.section-content img:hover {
+    transform: scale(1.1); /* Zoom al pasar el ratón */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #fffafa; /* Color de fondo */
+    padding: 40px 0; /* Espaciado interno */
+    border-bottom: 2px solid #ddd; /* Borde inferior */
+    text-align: center; /* Alinea el texto horizontalmente */
+}
+
+header h1 {
+    font-size: 36px; /* Tamaño del título */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+header p {
+    font-size: 18px; /* Tamaño del texto */
+    color: #666; /* Color del texto */
+    line-height: 1.6; /* Altura de línea */
+    text-align: center; /* Alinea el texto justificado */
+}
+
+/* Estilos para la sección de proyectos */
+#projects {
+    background-color: #ffffff; /* Color de fondo */
+    padding: 40px 0; /* Espaciado interno */
+    border-bottom: 2px solid #ddd; /* Borde inferior */
+}
+
+#projects h2 {
+    font-size: 32px; /* Tamaño del título */
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.project {
+    margin-bottom: 40px; /* Espacio inferior entre proyectos */
+}
+
+.project h3 {
+    text-align: center; /* Alinea el texto justificado */
+    font-size: 24px; /* Tamaño del título */
+    color: #666; /* Color del texto */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+.project img {
+    border-radius: 5px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.3s ease; /* Transición suave */
+    width: 300px; /* Cambiar el ancho de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.project img:hover {
+    transform: scale(1.05); /* Zoom al pasar el ratón */
+}
+
+/* Estilos para la sección de hobbies */
+#more {
+    background-color: #fff; /* Color de fondo */
+    padding: 40px 0; /* Espaciado interno */
+}
+
+#more h2 {
+    text-align: center; /* Alinea el texto justificado */
+    font-size: 40px; /* Tamaño del título */
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+#more p {
+    text-align: center; /* Alinea el texto justificado */
+    font-size: 18px; /* Tamaño del texto */
+    color: #666; /* Color del texto */
+    line-height: 1.6; /* Altura de línea */
+}
+
+.imagen-hobby {
+    border-radius: 100%; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.3s ease; /* Transición suave */
+    width: 300%; /* Ancho de la imagen al 100% del contenedor */
+    height: 500%; /* Mantener la proporción de la imagen */
+}
+
+.imagen-hobby:hover {
+    transform: scale(1.05); /* Zoom al pasar el ratón */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: right; /* Alinea el texto justificado */
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+}
+
+
